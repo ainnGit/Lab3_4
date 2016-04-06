@@ -9,8 +9,6 @@ public class Starter {
 	
 	public Starter()
 	{
-		System.out.println("Main rozpoczal dzialanie");
-		
 		Hall exhibitionHall = new Hall(2);						// tworzenie nowej sali wystawowej z max. 2 miejscami 
 		
 		for(int i = 0 ; i < 5; i++)								// tu tworzyc sie bedzie 5 gosci co 1 sek
